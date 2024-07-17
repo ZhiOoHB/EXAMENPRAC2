@@ -1,0 +1,86 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    
+}
+.container {
+    text-align: center; 
+}
+
+.container img {
+    max-width: 100%;  
+    height: auto; 
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.card-body p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card-body .precio {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-body button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: rgb(233, 227, 227);
+    border: magenta;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: mediumblue;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #ac1616; 
+}
+
